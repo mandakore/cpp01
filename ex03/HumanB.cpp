@@ -12,18 +12,17 @@
 
 #include "HumanB.hpp"
 
-// 最初は武器を持っていない可能性があるため、NULLで初期化します
-HumanB::HumanB(std::string name) : name(name), weapon(NULL) {} //
+HumanB::HumanB(std::string name) : name(name), weapon(NULL) {} 
 
 HumanB::~HumanB() {}
 
-void HumanB::setWeapon(Weapon& weapon) { // [cite: 211]
+void HumanB::setWeapon(Weapon& weapon) { 
     this->weapon = &weapon;
 }
 
 void HumanB::attack() const {
     if (this->weapon) {
-        std::cout << this->name << " attacks with their " << this->weapon->getType() << std::endl; // [cite: 191, 192]
+        std::cout << this->name << " attacks with their " << this->weapon->getType() << std::endl; 
     } else {
         std::cout << this->name << " has no weapon to attack with!" << std::endl;
     }

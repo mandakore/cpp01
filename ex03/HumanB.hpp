@@ -19,15 +19,15 @@
 
 class HumanB {
 private:
-    std::string name; // [cite: 190]
-    Weapon* weapon;   // [cite: 190, 194, 195]
+    std::string name; 
+    Weapon* weapon;  
 
 public:
-    HumanB(std::string name); // [cite: 194]
+    HumanB(std::string name); 
     ~HumanB();
 
-    void setWeapon(Weapon& weapon); // [cite: 211]
-    void attack() const; // [cite: 191]
+    void setWeapon(Weapon& weapon); 
+    void attack() const; 
 };
 
 #endif
