@@ -6,7 +6,7 @@
 /*   By: atashiro <atashiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/13 16:19:27 by atashiro          #+#    #+#             */
-/*   Updated: 2026/03/13 16:19:28 by atashiro         ###   ########.fr       */
+/*   Updated: 2026/03/13 18:13:03 by atashiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,26 +18,26 @@ Harl::~Harl() {}
 
 void Harl::debug(void) {
 	std::cout << "[ DEBUG ]\n"
-			<< "I love having extra bacon for my 7XL-double-cheese-triple-pickle-special-ketchup burger. I really do!\n" 
+			<< "I love having extra bacon for my 7XL-double-cheese-triple-pickle-special-ketchup burger. I really do!\n"
 			<< std::endl;
 }
 
 void Harl::info(void) {
 	std::cout << "[ INFO ]\n"
-			<< "I cannot believe adding extra bacon costs more money. You didn't put enough bacon in my burger! If you did, I wouldn't be asking for more!\n" 
+			<< "I cannot believe adding extra bacon costs more money. You didn't put enough bacon in my burger! If you did, I wouldn't be asking for more!\n"
 			<< std::endl;
 }
 
 void Harl::warning(void) {
 	std::cout << "[ WARNING ]\n"
 			<< "I think I deserve to have some extra bacon for free.\n"
-			<< "I've been coming for years, whereas you started working here just last month.\n" 
+			<< "I've been coming for years, whereas you started working here just last month.\n"
 			<< std::endl;
 }
 
 void Harl::error(void) {
 	std::cout << "[ ERROR ]\n"
-			<< "This is unacceptable! I want to speak to the manager now.\n" 
+			<< "This is unacceptable! I want to speak to the manager now.\n"
 			<< std::endl;
 }
 
@@ -55,18 +55,18 @@ void Harl::complain(std::string level) {
 	switch (levelIndex) {
 		case 0:
 			this->debug();
-		
+
 		case 1:
 			this->info();
-		
+
 		case 2:
 			this->warning();
-		
+
 		case 3:
 			this->error();
 			break;
 		default:
-			std::cout << "[ Probably complaining about insignificant problems ]\n" << std::endl; 
+			std::cout << "[ Probably complaining about insignificant problems ]\n" << std::endl;
 			break;
 	}
 }

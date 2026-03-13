@@ -6,7 +6,7 @@
 /*   By: atashiro <atashiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/13 15:10:49 by atashiro          #+#    #+#             */
-/*   Updated: 2025/10/13 16:12:23 by atashiro         ###   ########.fr       */
+/*   Updated: 2026/03/13 18:16:34 by atashiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ Zombie::Zombie(std::string name) {
 
 Zombie::~Zombie(void){
 	std::cout<<this->name<<": destroyed"<<std::endl;
-};
+}
 
 void	Zombie::announce(void){
 	std::cout<<this->name<<": BraiiiiiiinnnzzzZ..."<<std::endl;
-};
+}

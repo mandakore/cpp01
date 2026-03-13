@@ -6,7 +6,7 @@
 /*   By: atashiro <atashiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 17:12:02 by atashiro          #+#    #+#             */
-/*   Updated: 2025/12/25 00:27:09 by atashiro         ###   ########.fr       */
+/*   Updated: 2026/03/13 18:14:46 by atashiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,6 @@ class Zombie {
 };
 
 Zombie* zombieHorde(int N, std::string name);
-
 
 
 #endif

@@ -6,7 +6,7 @@
 /*   By: atashiro <atashiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/13 16:19:14 by atashiro          #+#    #+#             */
-/*   Updated: 2026/03/13 16:28:19 by atashiro         ###   ########.fr       */
+/*   Updated: 2026/03/13 18:18:34 by atashiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 
 class Weapon {
 private:
-	std::string type; 
+	std::string type;
 
 public:
 	Weapon(std::string type);
